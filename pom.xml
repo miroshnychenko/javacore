@@ -7,6 +7,16 @@
   <version>1.0-SNAPSHOT</version>
   <name>javacore</name>
   <url>http://maven.apache.org</url>
+
+  <profiles>
+    <profile>
+        <id>chrome</id>
+        <properties>
+            <browsername>chrome</browsername>
+        </properties>
+    </profile>
+  </profiles>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

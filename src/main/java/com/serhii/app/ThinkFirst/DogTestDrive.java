@@ -1,4 +1,4 @@
-package com.serhii.app;
+package com.serhii.app.ThinkFirst;
 
 public class DogTestDrive {
 
