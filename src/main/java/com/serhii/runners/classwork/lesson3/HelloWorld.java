@@ -1,4 +1,4 @@
-package com.serhii.runners.classwork.lesson2;
+package com.serhii.runners.classwork.lesson3;
 
 public class HelloWorld {
 
