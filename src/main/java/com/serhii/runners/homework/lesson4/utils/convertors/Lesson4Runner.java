@@ -9,7 +9,7 @@ public class Lesson4Runner {
         PrimitiveConvertor convertor = new PrimitiveConvertor();
 
         convertor.charToInt('a');
-        convertor.floatToChar(200);
+        convertor.floatToChar(200.f);
         convertor.intToChar(96);
     }
 }
