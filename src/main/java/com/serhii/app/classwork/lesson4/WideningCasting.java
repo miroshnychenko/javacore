@@ -14,4 +14,8 @@ public class WideningCasting {
         double1 = float1 = long1 = int1 = short1 = byte1;
         System.out.println(double1);
     }
+
+    public static double widening(byte num){
+        return num;
+    }
 }

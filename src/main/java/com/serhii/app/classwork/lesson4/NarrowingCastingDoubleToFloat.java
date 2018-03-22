@@ -9,4 +9,8 @@ public class NarrowingCastingDoubleToFloat {
         float1 = (float) double1;
         System.out.println(float1);
     }
+
+    public static float narrowingDoubleToFloat(double number) {
+        return (float) number;
+    }
 }

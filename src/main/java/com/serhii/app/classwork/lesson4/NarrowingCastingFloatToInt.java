@@ -9,4 +9,8 @@ public class NarrowingCastingFloatToInt {
 
         System.out.println(int1);
     }
+
+    public static int narrowingFloatToInt(float num){
+        return (int) num;
+    }
 }

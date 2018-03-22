@@ -8,4 +8,8 @@ public class NarrowingCastingIntToFloat {
         float1 = int1;
         System.out.println(float1);
     }
+
+    public static float narrowingIntToFloat(int num){
+        return num;
+    }
 }
