@@ -12,12 +12,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitParamsRunner.class)
-public class LessonFiveHomework {
+public class LessonFiveHomeworkTest {
     private MathFuncHome math = new MathFuncHome();
 
     @Test
     @FileParameters(value = "src/test/resources/AdditionTestData.csv", mapper = CsvWithHeaderMapper.class)
-    public void additionTest(int a, int b, int expected){
+    public void additionTest(int a, int b, int expected) {
         Assert.assertEquals(expected, math.addition(a, b));
     }
 
@@ -34,12 +34,12 @@ public class LessonFiveHomework {
     }
 
     @Test(expected = ArithmeticException.class)
-    public void divisionExceptionTest(){
-        math.division(1,0);
+    public void divisionExceptionTest() {
+        math.division(1, 0);
     }
 
     @Test
-    public void mathPowTest(){
+    public void mathPowTest() {
         double num1 = 4.0;
         double num2 = 2.0;
         double expected = 16.0;
@@ -47,29 +47,29 @@ public class LessonFiveHomework {
     }
 
     @Test
-    public void narrowingDoubleToFloatTest(){
+    public void narrowingDoubleToFloatTest() {
         float expected = 16.0f;
         // 1e-8 stands for delta
         Assert.assertEquals(expected, NarrowingCastingDoubleToFloat.narrowingDoubleToFloat(16.0), 1e-8);
     }
 
     @Test
-    public void narrowingFloatToIntTest(){
+    public void narrowingFloatToIntTest() {
         int actual = NarrowingCastingFloatToInt.narrowingFloatToInt(127.0f);
         int expected = 127;
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void narrowingIntToFloatTest(){
+    public void narrowingIntToFloatTest() {
         float expected = 2.0f;
         Assert.assertEquals(expected, NarrowingCastingIntToFloat.narrowingIntToFloat(2), 1e-8);
     }
 
     @Test
-    public void wideningTest(){
+    public void wideningTest() {
         double expected = 35.0;
-        Assert.assertEquals(expected, WideningCasting.widening((byte)35), 1e-8);
+        Assert.assertEquals(expected, WideningCasting.widening((byte) 35), 1e-8);
     }
 
 }

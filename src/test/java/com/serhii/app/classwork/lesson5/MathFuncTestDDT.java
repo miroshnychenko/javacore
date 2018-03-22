@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 public class MathFuncTestDDT {
     @Test
     @FileParameters(value = "src/test/resources/testData.csv", mapper = CsvWithHeaderMapper.class)
-    public void dataProviderTestAdd(int argA, int argB, int expeted){
+    public void dataProviderTestAdd(int argA, int argB, int expeted) {
         Assert.assertEquals(expeted, MathFunc.multiply(argA, argB));
     }
 }

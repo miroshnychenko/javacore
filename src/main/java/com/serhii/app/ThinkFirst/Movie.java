@@ -5,7 +5,7 @@ public class Movie {
     String genre;
     int raiting;
 
-    void playIt(){
+    void playIt() {
         System.out.println("Playing movie");
     }
 }
