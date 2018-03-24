@@ -1,4 +1,4 @@
-package com.serhii.runners.homework.lesson6;
+package com.serhii.runners.homework.lesson6.practice;
 
 import com.serhii.app.homework.lesson6.practice.RightAngledTriangle;
 
@@ -19,6 +19,6 @@ public class RightAngledTriangleRunner {
         System.out.println("Please enter side C length");
         triangle.setSideC(scanner.nextDouble());
 
-        triangle.isRightAngledToConsole();
+        System.out.println(triangle.isRightAngledToConsole());
     }
 }

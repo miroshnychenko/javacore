@@ -1,4 +1,4 @@
-package com.serhii.runners.homework.lesson6;
+package com.serhii.runners.homework.lesson6.practice;
 
 import com.serhii.app.homework.lesson6.practice.EvenOdd;
 
