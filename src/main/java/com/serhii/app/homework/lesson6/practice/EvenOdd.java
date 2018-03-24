@@ -10,11 +10,10 @@ public class EvenOdd {
         return number % 2 != 0;
     }
 
-    public static String isOddOrEven(int number) {
+    public static String isEvenOrOdd(int number) {
         if (isEven(number)) {
             return "is Even";
         }
         return "is Odd";
     }
-
 }
