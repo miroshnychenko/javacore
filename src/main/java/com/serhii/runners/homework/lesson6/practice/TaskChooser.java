@@ -11,13 +11,13 @@ public class TaskChooser {
         System.out.println("To play what number is bigger enter 3");
 
         Scanner scanner = new Scanner(System.in);
-        int usersChoise = scanner.nextInt();
+        int usersChoice = scanner.nextInt();
 
-        if (usersChoise == 1) {
+        if (usersChoice == 1) {
             RightAngledTriangleRunner.main(null);
-        } else if (usersChoise == 2) {
+        } else if (usersChoice == 2) {
             CircleAreaRunner.main(null);
-        } else if (usersChoise == 3) {
+        } else if (usersChoice == 3) {
             BiggerNumberRunner.main(null);
         } else {
             System.out.println("Input is not correct");

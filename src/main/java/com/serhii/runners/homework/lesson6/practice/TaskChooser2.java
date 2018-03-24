@@ -11,9 +11,9 @@ public class TaskChooser2 {
         System.out.println("Type 'exit' to exit");
 
         Scanner scanner = new Scanner(System.in);
-        String usersChoise = scanner.next();
+        String usersChoice = scanner.next();
 
-        switch (usersChoise) {
+        switch (usersChoice) {
             case "1":
                 RightAngledTriangleRunner.main(null);
                 System.out.println(" ");
