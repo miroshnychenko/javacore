@@ -25,7 +25,7 @@ public class BiggerNumber {
         return number1 > number2;
     }
 
-    public String whatNumberIsBigger(int number1, int number2){
+    public String whatNumberIsBigger(int number1, int number2) {
         if (number1 == number2) {
             return "Numbers are equal";
         } else if (firstIsBigger(number1, number2)) {

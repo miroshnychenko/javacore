@@ -27,12 +27,12 @@ public class RightAngledTriangle {
         this.sideC = sideC;
     }
 
-    public boolean isRightAngled(){
+    public boolean isRightAngled() {
         return Math.pow(sideC, 2) == Math.pow(sideA, 2) + Math.pow(sideB, 2);
     }
 
-    public void isRightAngledToConsole(){
-        if (Math.pow(sideC, 2) == Math.pow(sideA, 2) + Math.pow(sideB, 2)){
+    public void isRightAngledToConsole() {
+        if (Math.pow(sideC, 2) == Math.pow(sideA, 2) + Math.pow(sideB, 2)) {
             System.out.println("Triangle is right angled");
         } else {
             System.out.println("Triangle is not right angled");

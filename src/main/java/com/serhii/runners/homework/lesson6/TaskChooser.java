@@ -1,4 +1,5 @@
 package com.serhii.runners.homework.lesson6;
+
 import java.util.Scanner;
 
 public class TaskChooser {
