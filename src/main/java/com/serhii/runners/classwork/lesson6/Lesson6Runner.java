@@ -1,4 +1,4 @@
-package com.serhii.runners.homework.lesson6;
+package com.serhii.runners.classwork.lesson6;
 
 import com.serhii.app.classwork.lesson6.Lesson6;
 
