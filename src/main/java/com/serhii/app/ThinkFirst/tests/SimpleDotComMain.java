@@ -3,8 +3,6 @@ package com.serhii.app.ThinkFirst.tests;
 import com.serhii.app.ThinkFirst.app.GameHelper;
 import com.serhii.app.ThinkFirst.app.SimpleDotCom;
 
-import java.util.Scanner;
-
 public class SimpleDotComMain {
     public static void main(String[] args) {
 
