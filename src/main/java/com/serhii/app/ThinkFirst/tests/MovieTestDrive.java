@@ -1,4 +1,6 @@
-package com.serhii.app.ThinkFirst;
+package com.serhii.app.ThinkFirst.tests;
+
+import com.serhii.app.ThinkFirst.app.Movie;
 
 public class MovieTestDrive {
     public static void main(String[] args) {
