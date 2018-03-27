@@ -6,16 +6,16 @@ public class RightAngledTriangle {
     private double sideB;
     private double sideC;
 
-    public void setSideA(double sideA) {
-        this.sideA = sideA;
+    public void setSideA(String sideA) {
+        this.sideA = Double.parseDouble(sideA);
     }
 
-    public void setSideB(double sideB) {
-        this.sideB = sideB;
+    public void setSideB(String sideB) {
+        this.sideB = Double.parseDouble(sideB);
     }
 
-    public void setSideC(double sideC) {
-        this.sideC = sideC;
+    public void setSideC(String sideC) {
+        this.sideC = Double.parseDouble(sideC);
     }
 
     public boolean isRightAngled() {

@@ -11,11 +11,11 @@ public class CircleAreaRunner {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter radius of first circle");
-        double radius1 = scanner.nextDouble();
+        String radius1 = scanner.next();
         System.out.println("Circle 1 area is " + CircleArea.calculate(radius1));
 
         System.out.println("Please enter radius of second circle");
-        double radius2 = scanner.nextDouble();
+        String radius2 = scanner.next();
         System.out.println("Circle 2 area is " + CircleArea.calculate(radius2));
         System.out.println("----------------------");
         System.out.println(CircleArea.calculateBigger(radius1, radius2));

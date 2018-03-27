@@ -4,11 +4,12 @@ import com.serhii.app.homework.lesson6.utils.Constants;
 
 public class CircleArea {
 
-    public static double calculate(double radius) {
+    public static double calculate(String radiusStr) {
+        double radius = Double.parseDouble(radiusStr);
         return Constants.PI * Math.pow(radius, 2);
     }
 
-    public static String calculateBigger(double radius1, double radius2) {
+    public static String calculateBigger(String radius1, String radius2) {
         double area1 = calculate(radius1);
         double area2 = calculate(radius2);
 

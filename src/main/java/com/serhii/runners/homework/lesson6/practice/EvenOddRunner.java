@@ -12,7 +12,7 @@ public class EvenOddRunner {
 
         System.out.println("Please enter a number");
 
-        int number = scanner.nextInt();
+        String number = scanner.next();
 
         System.out.println("Your number " + EvenOdd.isEvenOrOdd(number));
     }

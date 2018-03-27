@@ -12,9 +12,9 @@ public class BiggerNumberRunner {
         BiggerNumber numbers = new BiggerNumber();
 
         System.out.println("Please enter first number:");
-        numbers.setNumber1(scanner.nextInt());
+        numbers.setNumber1(scanner.next());
         System.out.println("Please enter second number:");
-        numbers.setNumber2(scanner.nextInt());
+        numbers.setNumber2(scanner.next());
 
         System.out.println(numbers.whatNumberIsBigger(numbers.getNumber1(), numbers.getNumber2()));
     }

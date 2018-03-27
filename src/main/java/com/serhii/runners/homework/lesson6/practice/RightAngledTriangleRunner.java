@@ -11,13 +11,13 @@ public class RightAngledTriangleRunner {
         Scanner scanner = new Scanner(System.in);
         RightAngledTriangle triangle = new RightAngledTriangle();
         System.out.println("Please enter side A length");
-        triangle.setSideA(scanner.nextDouble());
+        triangle.setSideA(scanner.next());
 
         System.out.println("Please enter side B length");
-        triangle.setSideB(scanner.nextDouble());
+        triangle.setSideB(scanner.next());
 
         System.out.println("Please enter side C length");
-        triangle.setSideC(scanner.nextDouble());
+        triangle.setSideC(scanner.next());
 
         System.out.println(triangle.isRightAngledToConsole());
     }
