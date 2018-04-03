@@ -5,27 +5,27 @@ import com.serhii.app.homework.lesson8.utils.Lesson8Utils;
 public class ArrayLoopsHomework {
 
     public String toString(int[] array) {
-        String arrayToString = "";
+        StringBuilder arrayToString = new StringBuilder();
         for (int element : array) {
-            arrayToString = arrayToString + (element + " ");
+            arrayToString = arrayToString.append(element).append(" ");
         }
-        return arrayToString;
+        return arrayToString.toString();
     }
 
     public String toString(int[][] array) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int[] arr : array) {
-            result = result + toString(arr) + "\n";
+            result = result.append(toString(arr)).append("\n");
         }
-        return result;
+        return result.toString();
     }
 
     public String toColumn(int[] array) {
-        String arrayToColumn = "";
+        StringBuilder arrayToColumn = new StringBuilder();
         for (int element : array) {
-            arrayToColumn = arrayToColumn + element + "\n";
+            arrayToColumn = arrayToColumn.append(element).append("\n");
         }
-        return arrayToColumn;
+        return arrayToColumn.toString();
     }
 
     public int[] generateRandomArray(int length, int minNumber, int maxNumber) {
@@ -76,16 +76,16 @@ public class ArrayLoopsHomework {
         return evenCount;
     }
 
-    public String matrixToFormatedString(int[][] array) {
-        String result = "";
+    public String matrixToFormattedString(int[][] array) {
+        StringBuilder result = new StringBuilder();
         for (int i = 1; i < array.length; i++) {
             for (int j = 1; j < array[i].length; j++) {
 
-                result = result + String.format("%3d ", array[i][j]);
+                result = result.append(String.format("%3d ", array[i][j]));
             }
-            result = result + "\n";
+            result = result.append("\n");
         }
-        return result;
+        return result.toString();
     }
 
 }

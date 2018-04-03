@@ -50,9 +50,7 @@ public class ArrayLoopsHomeworkRunner {
         System.out.println("Part 6");
 
         int[][] twoDimensionalArray2 = arrayLoops.generateTwoDimensionalArray(8, 5, 1, 999);
-        System.out.println(arrayLoops.matrixToFormatedString(twoDimensionalArray2));
+        System.out.println(arrayLoops.matrixToFormattedString(twoDimensionalArray2));
 
     }
-
-
 }
