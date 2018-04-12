@@ -2,11 +2,6 @@ package com.serhii.app.homework.lesson8.utils;
 
 public class Lesson8Utils {
 
-    public static int generateNumber(int maxNumber) {
-        return (int) (Math.random() * (maxNumber)) + 1;
-
-    }
-
     public static int generateNumberInRange(int minNumber, int maxNumber) {
         return (int) (Math.random() * (maxNumber - minNumber + 1)) + minNumber;
 

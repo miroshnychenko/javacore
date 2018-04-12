@@ -13,21 +13,21 @@ public class BiggerNumberTest {
     public void secondNumberIsBiggerTest() {
         numbers.setNumber1("1");
         numbers.setNumber2("2");
-        Assert.assertEquals("Number two is bigger", numbers.whatNumberIsBigger(numbers.getNumber1(), numbers.getNumber2())); ;
+        Assert.assertEquals("Number two is bigger", numbers.whatNumberIsBigger(numbers.getNumber1(), numbers.getNumber2()));
     }
 
     @Test
     public void firstNumberIsBiggerTest() {
         numbers.setNumber1("2");
         numbers.setNumber2("1");
-        Assert.assertEquals("Number one is bigger", numbers.whatNumberIsBigger(numbers.getNumber1(), numbers.getNumber2())); ;
+        Assert.assertEquals("Number one is bigger", numbers.whatNumberIsBigger(numbers.getNumber1(), numbers.getNumber2()));
     }
 
     @Test
     public void NumbersAreEqualTest() {
         numbers.setNumber1("2");
         numbers.setNumber2("2");
-        Assert.assertEquals("Numbers are equal", numbers.whatNumberIsBigger(numbers.getNumber1(), numbers.getNumber2())); ;
+        Assert.assertEquals("Numbers are equal", numbers.whatNumberIsBigger(numbers.getNumber1(), numbers.getNumber2()));
     }
 
 }
