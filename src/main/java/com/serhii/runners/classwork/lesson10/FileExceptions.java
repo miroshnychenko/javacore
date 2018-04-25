@@ -29,7 +29,7 @@ public class FileExceptions {
         writeToFile("/Users/serhii/Documents/output.txt");
     }
 
-    public static void readTheFile(String path) throws IOException {
+    private static void readTheFile(String path) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(path));
         String line;
 
@@ -50,24 +50,23 @@ public class FileExceptions {
 
     }
 
-    private static void writeToFile1 (String pathToFIle, String str) throws IOException {
-        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(pathToFIle)));
+    private static void writeToFile1 (BufferedWriter writer, String str) throws IOException {
         writer.append(str);
         writer.newLine();
-        String firstLine = "The first line";
-        writer.append(firstLine);
     }
 
     public static void checkIfPalindromeFormFile(String inputFilePath, String outputFilePath) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
         String line;
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outputFilePath)));
 
         while ((line = reader.readLine()) != null) {
             if (Palindrome.isPalindrome1(line)) {
                 System.out.println("Palindrome found: " + line + "\nWriting to file");
-                writeToFile1(outputFilePath, line);
+                writeToFile1(writer, line);
             }
         }
         reader.close();
+        writer.close();
     }
 }
