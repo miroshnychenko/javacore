@@ -9,9 +9,9 @@ public class FlowersRunner {
         Flower gerbera = new Gerbera(45);
         Flower carnation = new Carnation(35);
 
-        Flower[] flowers1 = {rose ,rose ,rose};
+        Flower[] flowers1 = {rose, rose, rose};
         Flower[] flowers2 = {tulip, rose, gerbera};
-        Flower[] flowers3 = {carnation ,carnation, carnation};
+        Flower[] flowers3 = {carnation, carnation, carnation};
         Flower[] flowers4 = {gerbera, carnation, tulip};
 
         Bouquet bouquet1 = new Bouquet(flowers1);
@@ -23,7 +23,5 @@ public class FlowersRunner {
         System.out.println(bouquet2.getPrice());
         System.out.println(bouquet3.getPrice());
         System.out.println(bouquet4.getPrice());
-
-
     }
 }

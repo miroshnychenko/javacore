@@ -21,7 +21,7 @@ public class ComputerRunner {
         System.out.println(comp2);
     }
 
-    private static void changesForComputersArray(Computer[] computers,CPU cpu) {
+    private static void changesForComputersArray(Computer[] computers, CPU cpu) {
         for (Computer comp : computers) {
             comp.changeCpu(cpu);
         }

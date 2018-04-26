@@ -15,7 +15,7 @@ public class CustomBicycle extends Bicycle {
     }
 
     @Override
-    public void ride(){
+    public void ride() {
         System.out.println("Wshhhh!");
     }
 }

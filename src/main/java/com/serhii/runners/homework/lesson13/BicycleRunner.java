@@ -1,6 +1,5 @@
 package com.serhii.runners.homework.lesson13;
 
-
 import com.serhii.app.homework.lesson13.bicycle.Bicycle;
 import com.serhii.app.homework.lesson13.bicycle.BicycleWithRing;
 import com.serhii.app.homework.lesson13.bicycle.BicycleWithRingInterface;

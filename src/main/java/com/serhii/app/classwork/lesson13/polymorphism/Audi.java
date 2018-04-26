@@ -1,6 +1,6 @@
 package com.serhii.app.classwork.lesson13.polymorphism;
 
-public class Audi extends Car{
+public class Audi extends Car {
 
     public Audi() {
         name = "Audi";
@@ -8,7 +8,7 @@ public class Audi extends Car{
     }
 
     @Override
-    public void drive(){
+    public void drive() {
         System.out.println("Audi drives");
     }
 }

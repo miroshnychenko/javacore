@@ -6,7 +6,7 @@ public class Bouquet {
 
     public Bouquet(Flower[] flowers) {
         this.flowers = flowers;
-        for (Flower flower: flowers) {
+        for (Flower flower : flowers) {
             this.price += flower.price;
         }
     }

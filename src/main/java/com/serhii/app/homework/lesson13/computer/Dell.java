@@ -1,6 +1,6 @@
 package com.serhii.app.homework.lesson13.computer;
 
-public class Dell extends Computer{
+public class Dell extends Computer {
     public Dell(CPU cpu, int ram) {
         super(cpu, ram);
     }
