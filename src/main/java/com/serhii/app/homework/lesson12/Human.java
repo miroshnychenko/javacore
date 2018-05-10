@@ -18,7 +18,7 @@ public class Human {
     }
 
     public void setAge(int age) {
-        if (age >= 1 && age <=120) {
+        if (age >= 1 && age <= 120) {
             this.age = age;
             System.out.println("New age setted");
         } else {

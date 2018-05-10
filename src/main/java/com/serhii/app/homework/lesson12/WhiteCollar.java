@@ -1,6 +1,6 @@
 package com.serhii.app.homework.lesson12;
 
-public class WhiteCollar extends Human{
+public class WhiteCollar extends Human {
     private String companyName;
 
     public WhiteCollar(String name, int age, String companyName) {
@@ -8,7 +8,16 @@ public class WhiteCollar extends Human{
         this.companyName = companyName;
     }
 
+    public String getCompanyName() {
+        return companyName;
+    }
+
     public void setCompanyName(String companyName) {
-        this.companyName = companyName;
+        if (companyName.matches("^[a-zA-Z, -]+$")) {
+            this.companyName = companyName;
+        } else {
+            System.out.println("Company name is invalid");
+        }
+
     }
 }

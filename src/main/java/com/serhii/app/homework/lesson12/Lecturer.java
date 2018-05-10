@@ -9,13 +9,14 @@ public class Lecturer extends Person {
         this.experience = experience;
         this.degree = degree;
     }
+
     @Override
-    public void printInfo(){
-        System.out.printf("Lecturer faculty: %s, experience: %d, degree: %s",faculty, experience, degree);
+    public void printInfo() {
+        System.out.printf("Lecturer faculty: %s, experience: %d, degree: %s", faculty, experience, degree);
     }
 
     @Override
-    public void showDegree(){
+    public void showDegree() {
         System.out.println(degree);
     }
 }
